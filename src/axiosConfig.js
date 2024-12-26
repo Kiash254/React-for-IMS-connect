@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-  baseURL: 'https://melodic-naiad-464d1e.netlify.app/',
+  baseURL: 'https://ims-connect-c78r.onrender.com/api/',
   headers: {
     'Content-Type': 'application/json',
   },
