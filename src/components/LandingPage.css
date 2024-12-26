@@ -1,0 +1,89 @@
+/* General Container Styling */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    min-height: 100vh; /* Ensure the container takes at least the full viewport height */
+  }
+  
+  /* Welcome Text Styling */
+  .welcome-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333; /* Solid color */
+    margin-bottom: 20px;
+  }
+  
+  /* Landing Image Styling */
+  .landing-image {
+    max-width: 20%; /* Further reduce the height of the landing image */
+    height: auto;
+  }
+  
+  /* Site Message Styling */
+  .site-message {
+    font-size: 1.2rem;
+    color: #555; /* Solid color */
+    margin: 20px 0;
+  }
+  
+  /* Get Started Button Styling */
+  .get-started-btn {
+    margin-top: 40px;
+    background-color: #007bff; /* Solid color */
+    border-color: #007bff; /* Solid color */
+  }
+  
+  /* Back Button Styling */
+  .back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #6c757d; /* Solid color */
+    border-color: #6c757d; /* Solid color */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .welcome-text {
+      font-size: 2rem;
+    }
+  
+    .landing-image {
+      max-width: 40%;
+    }
+  
+    .site-message {
+      font-size: 1rem;
+    }
+  
+    .get-started-btn {
+      padding: 10px 15px;
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .welcome-text {
+      font-size: 1.5rem;
+    }
+  
+    .landing-image {
+      max-width: 50%;
+    }
+  
+    .site-message {
+      font-size: 0.9rem;
+    }
+  
+    .get-started-btn {
+      padding: 8px 12px;
+      font-size: 0.9rem;
+    }
+  }

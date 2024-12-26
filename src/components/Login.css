@@ -1,0 +1,97 @@
+/* General Container Styling */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  /* Neumorphic Card Styling */
+  .neumorphic-card {
+    background: #e0e0e0;
+    border-radius: 20px;
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+    padding: 20px;
+    width: 400px;
+    max-width: 100%;
+    text-align: center;
+  }
+  
+  /* Avatar Styling */
+  .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
+    margin-bottom: 20px; /* Add margin to separate avatar and button */
+  }
+  
+  /* Form Inputs and Buttons Styling */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-control {
+    border-radius: 10px;
+    box-shadow: inset 5px 5px 10px #bebebe, inset -5px -5px 10px #ffffff;
+    border: none;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .btn {
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
+    border: none;
+    padding: 10px 20px;
+    width: 100%;
+  }
+  
+  /* Heading Styling */
+  h1, h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  /* Alert Styling */
+  .alert {
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .neumorphic-card {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    .avatar {
+      width: 80px;
+      height: 80px;
+    }
+  
+    .btn {
+      padding: 10px 15px;
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    h1 {
+      font-size: 2rem;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+    }
+  
+    .btn {
+      padding: 8px 12px;
+      font-size: 0.9rem;
+    }
+  }

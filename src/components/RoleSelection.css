@@ -1,0 +1,93 @@
+/* General Container Styling */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  /* Role Card Styling */
+  .role-card {
+    background: #e0e0e0;
+    border-radius: 20px;
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px; /* Add margin to separate cards */
+  }
+  
+  /* Avatar Styling */
+  .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
+    margin-bottom: 20px; /* Add margin to separate avatar and button */
+  }
+  
+  /* Heading Styling */
+  .welcome-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: blue;
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+  
+  .lead {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+  }
+  
+  /* Button Styling */
+  button {
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
+    border: none;
+    padding: 10px 20px;
+  }
+  
+  .btn-success {
+    background-color: green;
+    border-color: green;
+  }
+  
+  .btn-danger {
+    background-color: red;
+    border-color: red;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .role-card {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .avatar {
+      width: 80px;
+      height: 80px;
+    }
+  
+    .btn-lg {
+      padding: 10px 15px;
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .welcome-text {
+      font-size: 2rem;
+    }
+  
+    .lead {
+      font-size: 1rem;
+    }
+  
+    .btn-lg {
+      padding: 8px 12px;
+      font-size: 0.9rem;
+    }
+  }

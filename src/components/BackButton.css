@@ -1,0 +1,13 @@
+/* Back Button Styling */
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #6c757d; /* Solid color */
+    border-color: #6c757d; /* Solid color */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+  }

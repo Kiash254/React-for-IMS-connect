@@ -1,0 +1,113 @@
+/* General Container Styling */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    min-height: 100vh; /* Ensure the container takes at least the full viewport height */
+  }
+  
+  /* Neumorphic Card Styling */
+  .neumorphic-card {
+    background: #e0e0e0;
+    border-radius: 20px;
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+    padding: 20px;
+    width: 600px;
+    max-width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Form Inputs and Buttons Styling */
+  .neumorphic-card input,
+  .neumorphic-card select,
+  .neumorphic-card textarea {
+    border-radius: 10px;
+    box-shadow: inset 5px 5px 10px #bebebe, inset -5px -5px 10px #ffffff;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .neumorphic-card button {
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
+    border: none;
+    padding: 10px 20px;
+    width: 100%;
+  }
+  
+  /* Table Styling */
+  .table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .table th, .table td {
+    text-align: center;
+  }
+  
+  /* Action Buttons Styling */
+  .action-buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .action-buttons .btn {
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 5px;
+  }
+  
+  .action-buttons .btn:last-child {
+    margin-right: 0;
+  }
+  
+  /* Pagination Styling */
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination .btn {
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 5px;
+  }
+  
+  .pagination .btn:last-child {
+    margin-right: 0;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .neumorphic-card {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    .btn {
+      padding: 10px 15px;
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    h2, h3 {
+      font-size: 1.5rem;
+    }
+  
+    .btn {
+      padding: 8px 12px;
+      font-size: 0.9rem;
+    }
+  }

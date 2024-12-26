@@ -1,0 +1,92 @@
+/* General Container Styling */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Neumorphic Card Styling */
+  .neumorphic-card {
+    background: #e0e0e0;
+    border-radius: 20px;
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+    padding: 20px;
+    width: 600px;
+    max-width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Form Inputs and Buttons Styling */
+  .neumorphic-card input,
+  .neumorphic-card select,
+  .neumorphic-card textarea {
+    border-radius: 10px;
+    box-shadow: inset 5px 5px 10px #bebebe, inset -5px -5px 10px #ffffff;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .neumorphic-card button {
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
+    border: none;
+    padding: 10px 20px;
+    width: 100%;
+  }
+  
+  /* Table Styling */
+  .table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .table th, .table td {
+    text-align: center;
+  }
+  
+  /* Heading Styling */
+  h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Group Label Styling */
+  .form-group label {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+  }
+  
+  /* Action Buttons Styling */
+  .action-btn {
+    border-radius: 50px;
+    padding: 5px 15px;
+    font-size: 0.9rem;
+  }
+  
+  .btn-outline-success {
+    color: #28a745;
+    border-color: #28a745;
+  }
+  
+  .btn-outline-warning {
+    color: #ffc107;
+    border-color: #ffc107;
+  }
+  
+  .btn-outline-danger {
+    color: #dc3545;
+    border-color: #dc3545;
+  }
+  
+  .btn-outline-secondary {
+    color: #6c757d;
+    border-color: #6c757d;
+  }
+  
